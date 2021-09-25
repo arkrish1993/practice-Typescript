@@ -76,6 +76,13 @@ class Student {
   // age: number;
   // private courses: string[];
 
+  // constructor(first: string, last: string, age: number, course: string[]) {
+  //   this.firstName = first;
+  //   this.lastName = last;
+  //   this.age = age;
+  //   this.courses = course;
+  // }
+  
   constructor(
     public firstName: string,
     public lastName: string,
