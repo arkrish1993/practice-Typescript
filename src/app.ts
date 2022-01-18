@@ -20,12 +20,12 @@ printResult(combineValues(2, 3));
 
 //Using unknown type
 let userInput: unknown;
-let userName: string;
+let user: string;
 
 userInput = 5;
 userInput = "Max";
 
-if (typeof userInput === "string") userName = userInput;
+if (typeof userInput === "string") user = userInput;
 
 //Using never type - to be used when you are sure that nothing will ever be returned from the function
 function generatError(msg: string, code: number): never {
